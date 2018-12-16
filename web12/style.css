@@ -1,0 +1,77 @@
+body {
+	background-image: url("000.jpg");
+	background-repeat: y-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+li {
+    padding: 2px;
+}
+.menu > ul > li > a[href="#"] {
+	color: rgb(46, 40, 40) !important;
+}
+
+.navbar{
+    background-color:#a81ddf;
+    height: 125px;
+}
+
+.container{
+    margin: 20px;
+    color: rgb(119, 209, 236);
+}
+
+img{
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color:#69bcf3!important;
+    padding:15px !important;
+    height: 80px; 
+    color: rgb(241, 240, 250);
+    font-family: 'Pattaya', sans-serif;
+}
+
+.title{ 
+    background-color: rgba(127, 212, 233, 0.6);
+    margin: 15px;
+    font-family: 'Pattaya', sans-serif !important;
+    text-align: center;
+    color: rgb(7, 7, 7) !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    padding: 20px;
+}
+
+.col-sm-3-main{
+   background-color: rgba(127, 212, 233, 0.6);
+   padding: 5%;
+   text-align:center;
+}
+
+.col-sm-9-main{
+   background-color: rgba(247, 240, 239, 0.6);
+    text-align:justify;
+    font-family: 'Vollkorn', serif;
+    color: rgb(7, 7, 7);
+    font-family: 'Pattaya', sans-serif;
+    text-indent: 2%;
+}
+
+.nav-link
+{
+    font-size: 20px;
+    color: white !important;
+    background:  rgba(127, 212, 233, 0.6);
+    font-family: 'Pattaya', sans-serif; 
+}
+.menu>ul > li:hover {
+    background-color:#16239b;
+}
+
+.carousel img {
+    max-height: 500px;
+    object-fit: contain;
+}
